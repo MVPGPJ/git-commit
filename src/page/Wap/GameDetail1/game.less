@@ -1,0 +1,633 @@
+.game-detail {
+    .detail-nav {
+        width: 100%;
+        height: 1.17333rem;
+        text-align: left;
+        font-size: .37333rem;
+        color: #777;
+        background: #FCFCFC 100%;
+        span {
+            line-height: 1.17333rem;
+            margin-left: .4rem;
+        }
+    }
+    .line {
+        width: 100%;
+        height: .26666rem;
+        background: #EEEEEE 100%;
+        margin-top: .2rem;
+    }
+    .package-title {
+        width: 9.2rem;
+        height: 1.0666rem;
+        margin: 0 auto;
+        span {
+            font-size: .42666rem;
+            position: relative;
+            margin-left: .2rem;
+            &:before {
+                content: '';
+                width: .08rem;
+                height: .4055rem;
+                background: #FFCE1C 100%;
+                display: inline-block;
+                position: absolute;
+                top: .06rem;
+                left: -.2rem;
+            }
+        }
+    }
+    .choosen-box {
+        width: 100%;
+        height: 1.2rem;
+        span {
+            display: block;
+            width: 50%;
+            height: 100%;
+            text-align: center;
+            line-height: 1.2rem;
+            float: left;
+            font-size: .37333rem;
+            color: #777;
+        }
+        .activeBtn {
+            font-size: .42666rem;
+            color: #333;
+            font-weight: medium;
+            position: relative;
+            &:before {
+                content: '';
+                width: .85333rem;
+                height: .08rem;
+                position: absolute;
+                top: 1.08rem;
+                border-radius: 2px;
+                background: #FDB71C 100%;
+            }
+        }
+    }
+    .game-banner {
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+        ul {
+            display: flex;
+            position: relative;
+            width: fit-content;
+            margin-top: .15rem;
+            li {
+                padding-left: .4rem;
+            }
+            li img {
+                width: 3.246rem;
+                height: 5.933rem;
+                background: no-repeat center;
+                background-size: cover;
+            }
+            li.horization div {
+                width: 4.62rem;
+                height: 10rem;
+            }
+            li:last-child{     
+                padding-right: .4rem;
+            }
+        }
+    }
+    .game-box {
+        width: 9.2rem;
+        height: auto;
+        margin: 0 auto;
+        margin-top: .35rem;
+        .package-img {
+            width: 2.4rem;
+            height: 2.4rem;
+            position: relative;
+            z-index: 1;
+            img {
+                width: 2.4rem;
+                height: 2.4rem;
+                border-radius: 21px;
+            }
+            span {
+                display: block;
+                width: 1.333rem;
+                height: .50666rem;
+                background: url(../../../assets/wap/mb_bg.png);
+                background-size: contain;
+                position: absolute;
+                top: 1.89rem;
+                left: 1.08rem;
+                text-align: center;
+                line-height: .50666rem;
+                font-size: .2666rem;
+                color: #fff;
+                z-index: 3;
+            }
+        }
+        .package-info {
+            width: 6.35rem;
+            height: auto;
+            margin-left: 2.75rem;
+            margin-top: -2.4rem;
+            p {
+                display: flex;
+                flex-wrap: wrap;
+                margin: 0;
+                padding: 0;
+                .package-name {
+                    display: inline-block;
+                    word-wrap: break-word;
+                    max-width: 100%;
+                    height: auto;
+                    font-size: .42666rem;
+                    color: #333;
+                    font-weight: medium;
+                    margin-top: .2rem;
+                }
+                .package-desc {
+                    display: block;
+                    width: 100%;
+                    height: auto;
+                    font-size: .34666rem;
+                    color: #828282;
+                    overflow: hidden; // 超出的文本隐藏
+                    text-overflow: ellipsis; // 溢出用省略号显示
+                    white-space: nowrap;
+                    margin-top: .2rem;
+                }
+                .package-time {
+                    display: block;
+                    width: 100%;
+                    font-size: .34666rem;
+                    color: #DC0700;
+                    margin-top: .35rem;
+                }
+            }
+            .info-tags {
+                overflow: hidden;
+                width: 100%;
+                height: 1.8rem;
+                .tags {
+                    font-size: .3rem;
+                    height: .541333rem;
+                    margin-left: .2rem;
+                    text-align: center;
+                    color: #fff;
+                    transform: skew(-7deg);
+                    text-align: center;
+                    padding: .03rem .2rem;
+                    float: left;
+                    border-radius: .05rem;
+                    margin-top: .25rem;
+                    &:nth-child(1) {
+                        margin-left: .02rem;
+                    }
+                    .tag-text {
+                        display: inline-block;
+			            transform:skew(7deg);   
+		                -webkit-transform: skew(7deg);   
+		                -moz-transform: skew(7deg);   
+		                -o-transform:skew(7deg);   
+		                -ms-transform:skew(7deg); 
+		                text-align: center;
+                        margin-top: .03rem;
+                    }
+                }
+                .tag0 {
+                    color: #fa5d1e;
+                    background: #FFCBB9;
+                }
+                .tag1 {
+                    color: #FB8445;
+                    background: #FDD9C5;
+                }
+                .tag2 {
+                    color: #F98D27;
+                    background: #FFDEC7;
+                }
+                .tag3 {
+                    color: #ff9d15;
+                    background: #FFE6D3;;
+                }
+                .tag4 {
+                    color: #ffa800;
+                    background: #FFEACD;
+                }
+                .tag5 {
+                    color: #ffa800;
+                    background: #FFF2C6;
+                }
+            }
+        }
+    }
+    .game-recommend {
+        width: 9.2rem;
+        margin: 0 auto;
+    }
+    // 福利
+    .welfare-content1 {
+        width: 100%;
+        margin: 0 auto;
+        border-bottom: .5px solid #E6E6E6;
+        .welfare-list {
+            .on {
+                overflow: visible;
+                max-height: none;
+            }
+        }
+        .welfare-list {
+            width: 9.2rem;
+            margin: .32rem auto 0;
+            padding-bottom: .5333rem;
+            position: relative;
+            .up {
+                display: block;
+                width: 100%;
+                height: auto;
+            }
+            span {
+                display: block;
+                width: 100%;
+                height: auto;
+                font-size: .34666rem;
+                color: #777;
+                line-height: .5333rem;
+                overflow: hidden;
+                max-height: 1.54rem;
+            }
+            .expandBtn {
+                background-image: linear-gradient(83deg, rgba(255, 255, 255, 0), #FFFFFF 22%);
+                height: .5rem;
+                width: 2rem;
+                position: absolute;
+                right: -.4rem;
+                font-size: .34666rem;
+                color: #FF8A54;
+                text-align: center;
+                top: 1rem;
+            }
+            .collapseBtn {
+                display: block;
+                position: absolute;
+                bottom: 0;
+                padding-bottom: .5333rem;
+                font-size: .34666rem;
+                color: #FF8A54;
+                right: .2rem;
+            }
+        }
+    }
+    .welfare-content {
+        width: 100%;
+        margin: 0 auto;
+        border-bottom: 0.5px solid #E6E6E6;
+        .on {
+            overflow: visible;
+            max-height: none;
+        }
+        .up {
+            display: block;
+            width: 100%;
+            height: auto;
+            font-size: .34666rem;
+            color: #777;
+            line-height: .5333rem;
+            overflow: hidden;
+            max-height: 1.54rem;
+        }
+        .welfare-list {
+            width: 9.2rem;
+            margin: .32rem auto .32rem;
+            padding-bottom: .6333rem;
+            position: relative;
+            span {
+                display: block;
+                width: 100%;
+                height: auto;
+                font-size: .34666rem;
+                color: #777;
+                line-height: .5333rem;
+                overflow: hidden;
+                max-height: 1.54rem;
+            }
+            .expandBtn {
+                background-image: linear-gradient(83deg, rgba(255, 255, 255, 0), #FFFFFF 22%);
+                height: .5rem;
+                width: 2rem;
+                position: absolute;
+                right: -.4rem;
+                font-size: .34666rem;
+                color: #FF8A54;
+                text-align: center;
+                top: .999rem;
+            }
+            .collapseBtn {
+                display: block;
+                position: absolute;
+                bottom: -.4rem;
+                padding-bottom: .5333rem;
+                font-size: .34666rem;
+                color: #FF8A54;
+                right: .2rem;
+            }
+        }
+    }
+    // 开服信息
+    .serve-content {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        height: 3.4666rem;
+        .serve-box {
+            display: flex;
+            position: relative;
+            width: fit-content;
+            margin-top: .58666rem;
+            height: 1.38rem;
+            // padding-right: .4rem;
+            border-bottom: 1px solid #CDCDCD;
+            .serve-information {
+                width: 100%;
+                height: auto;
+                position: relative;
+                &:first-child {
+                    margin-left: -.1333rem;
+                }
+                .serve-name {
+                    width: max-content;
+                    padding: 0 .2rem;
+                    height: .85333rem;
+                    text-align: center;
+                    line-height: .85333rem;
+                    font-size: .29333rem;
+                    position: relative;
+                    float: left;
+                    margin-left: .5333rem;
+                    box-shadow: 0 1px 4px 0 rgba(230,230,230,0.60);
+                    border-radius: 4px;
+                    &:before {
+                        content: '';
+                        width: 6px;
+                        height: 6px;
+                        background: #777;
+                        position: absolute;
+                        top: 1.3rem;
+                        left: 48%;
+                        border-radius: 100%;
+                    }
+                }
+                .serve-time {
+                    width: 1.3rem;
+                    height: .85333rem;
+                    text-align: center;
+                    line-height: .35333rem;
+                    font-size: .29333rem;
+                    position: absolute;
+                    top: 1.7rem;
+                    left: 39%;
+                    float: left;
+                    color: #777;
+                }
+            }
+        }
+    }
+    // 精选礼包
+    .gift-content {
+        width: 9.2rem;
+        margin: 0 auto;
+        .gift-list {
+            width: 100%;
+            height: auto;
+            ul {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                li {
+                    display: block;
+                    width: 100%;
+                    height: 2.08rem;
+                    border: 1px solid #eee;
+                    border-radius: 6px;
+                    margin-top: .45333rem;
+                    position: relative;
+                    .left-box {
+                        width: 7rem;
+                        height: 100%;
+                        p {
+                            margin: 0;
+                            padding: 0;
+                            .gift-name {
+                                display: block;
+                                padding: 0 .4rem;
+                                font-size: .37333rem;
+                                color: #333;
+                                margin-top: .4rem;
+                                font-weight: 600;
+                            }
+                            .gift-lists {
+                                display: block;
+                                width: 7.5rem;
+                                padding: 0 .4rem;
+                                font-size: .2666rem;
+                                margin-top: .2333rem;
+                                overflow: hidden; // 超出的文本隐藏
+                                text-overflow: ellipsis; // 溢出用省略号显示
+                                white-space: nowrap;
+                            }
+                        }
+                    }
+                    .gift-receive {
+                        display: block;
+                        font-size: .34666rem;
+                        position: absolute;
+                        width: 1.54666rem;
+                        height: .69333rem;
+                        right: .2666rem;
+                        top: .69333rem;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                        span {
+                            width: 100%;
+                            height: 100%;
+                            text-align: center;
+                            line-height: .69333rem;
+                            font-size: .34666rem;
+                        }
+                        .have-receive {
+                            color: #FF8A54 !important;
+                        }
+                        .not-receive {
+                            color: #777777 !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .package-content {
+        width: 9.2rem;
+        height: 11.35rem;
+        margin: .266rem auto 0;
+        .recommend-list {
+            width: 100%;
+            height: auto;
+            margin-top: -.15rem;
+            ul {
+                width: 100%;
+                height: auto;
+                padding: 0;
+                margin: 0;
+                margin-top: .1rem;
+                li {
+                    display: block;
+                    width: 2.75rem;
+                    height: 4rem;
+                    border-radius: 4px;
+                    border: 1px solid #eee;
+                    margin-left: .45rem;
+                    float: left;
+                    overflow: hidden;
+                    &:nth-child(3n+1) {
+                        margin-left: 0;
+                    }
+                    margin-top: .45333rem;
+                    p {
+                        position: relative;
+                        margin: 0;
+                        padding: 0;
+                        .game-type {
+                            display: block;
+                            width: 100%;
+                            height: auto;
+                            font-size: .26666rem;
+                            color: #777;
+                            text-align: center;
+                            line-height: .2666rem;
+                            margin-top: .37333rem;
+                        }
+                        .game-img {
+                            display: block;
+                            width: 1.8666rem;
+                            height: 1.8666rem;
+                            border-radius: 12px;
+                            margin-left: .441rem;
+                            margin-top: .16rem;
+                        }
+                        .game-name {
+                            display: block;
+                            width: 100%;
+                            height: auto;
+                            font-size: .34666rem;
+                            color: #333;
+                            line-height: .52666rem;
+                            text-align: center;
+                            margin-top: .2666rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .package-intruduce {
+        width: 9.2rem;
+        margin: 0 auto;
+        .intruduce {
+            width: 100%;
+            line-height: .5333rem;
+            span {
+                font-size: .33666rem;
+                line-height: .3333rem;
+                color: #777;
+            }
+        }
+    }
+    .gift-pop {
+        width: 10rem;
+        height: 100%;
+        z-index: 999;
+        position: fixed;
+        top: 0;
+        .mask {
+            width: 100%;
+            height: 100%;
+            background: #000;
+            opacity: .75;
+        }
+        img {
+            width: 100%;
+            position: absolute;
+            top: 2.6777rem;
+        }
+        .close-dialog {
+            display: block;
+            position: absolute;
+            width: 2rem;
+            height: 2rem;
+            top: 2rem;
+            right: 0rem;
+            z-index: 888;
+        }
+        .down-app {
+            width: 10rem;
+            height: 1.2rem;
+            position: absolute;
+            top: 10.9rem;
+            z-index: 888;
+        }
+    }
+}
+// 选中style
+.serveActive {
+    font-size: .34666rem !important;
+    height: 1rem !important;
+    line-height: 1rem !important;
+    padding: 0 .25rem;
+    background: #FFCE1C 100%;
+    color: #fff;
+    &:before {
+        content: '';
+        width: 8px !important;
+        height: 8px !important;
+        background: #FFCE1C 100% !important;
+        position: absolute;
+        top: 1.25rem !important;
+        left: 48%;
+        border-radius: 100%;
+    }
+}
+.timeActive {
+    font-size: .34666rem !important;
+    color: #333 !important;
+    font-weight: medium !important;
+}
+footer {
+    display: none !important;
+}
+.wap-footer {
+    display: none !important;
+}
+.footer {
+    display: none !important;
+}
+.down-box {
+    width: 10rem;
+    height: 1.6rem;
+    position: fixed;
+    bottom: .2333rem;
+    // background: #fff;
+    .down-bottom {
+        text-align: center;
+        margin-top: .3rem;
+        .down-btn {
+            width: 9.2rem;
+            // height: 1.0006rem;
+        }
+        .down-text {
+            position: absolute;
+            left: 4.25rem;
+            font-size: .42666rem;
+            color: #fff;
+            line-height: 1.39rem;
+        }
+    }
+}

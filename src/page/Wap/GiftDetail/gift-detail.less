@@ -1,0 +1,185 @@
+.game-detail {
+    position: relative;
+    min-height: 16.6rem;
+    .detail-nav {
+        width: 100%;
+        height: 1.17333rem;
+        text-align: left;
+        font-size: .37333rem;
+        color: #777;
+        background: #FCFCFC 100%;
+        span {
+            line-height: 1.17333rem;
+            margin-left: .4rem;
+        }
+    }
+    .line {
+        width: 100%;
+        height: .26666rem;
+        background: #F6F6F6 100%;
+        margin-top: .1rem;
+    }
+    .package-title {
+        width: 9.2rem;
+        height: 1.0666rem;
+        margin: 0 auto;
+        span {
+            font-size: .42666rem;
+            position: relative;
+            margin-left: .2rem;
+            &:before {
+                content: '';
+                width: .08rem;
+                height: .4055rem;
+                background: #FFCE1C 100%;
+                display: inline-block;
+                position: absolute;
+                top: .06rem;
+                left: -.2rem;
+            }
+        }
+    }
+    .game-box {
+        width: 9.2rem;
+        height: auto;
+        margin: 0 auto;
+        margin-top: .35rem;
+        .package-img {
+            width: 2.4rem;
+            height: 2.4rem;
+            img {
+                width: 2.4rem;
+                height: 2.4rem;
+                border-radius: 10px;
+            }
+        }
+        .package-info {
+            width: 6.35rem;
+            height: 2.4rem;
+            margin-left: 2.75rem;
+            margin-top: -2.4rem;
+            p {
+                margin: 0;
+                padding: 0;
+                .package-name {
+                    display: block;
+                    width: 100%;
+                    height: auto;
+                    font-size: .42666rem;
+                    color: #333;
+                    font-weight: medium;
+                    margin-top: .2rem;
+                }
+                .package-desc {
+                    display: block;
+                    width: 100%;
+                    height: auto;
+                    font-size: .34666rem;
+                    color: #828282;
+                    overflow: hidden; // 超出的文本隐藏
+                    text-overflow: ellipsis; // 溢出用省略号显示
+                    white-space: nowrap;
+                    margin-top: .2rem;
+                }
+                .package-time {
+                    display: block;
+                    width: 100%;
+                    font-size: .34666rem;
+                    color: #DC0700;
+                    margin-top: .35rem;
+                }
+            }
+        }
+    }
+    .package-content {
+        width: 9.2rem;
+        margin: 0 auto;
+        .package-list {
+            width: 100%;
+            height: auto;
+            ul {
+                width: 100%;
+                height: auto;
+                padding: 0;
+                margin: 0;
+                margin-top: .32rem;
+                li {
+                    display: block;
+                    width: 100%;
+                    line-height: .5333rem;
+                    font-size: .34666rem;
+                    color: #777;
+                }
+            }
+        }
+    }
+    .package-intruduce {
+        width: 9.2rem;
+        margin: 0 auto;
+        .intruduce {
+            width: 100%;
+            line-height: .5333rem;
+            span {
+                font-size: .33666rem;
+                line-height: .3333rem;
+                color: #777;
+            }
+        }
+    }
+    .receive-gift {
+        width: 10rem;
+        height: auto;
+        position: fixed;
+        bottom: -.15rem;
+        img {
+            width: 6.666rem;
+            position: absolute;
+            left: 1.667rem;
+            bottom: .4rem;
+        }
+        span {
+            width: 100%;
+            height: 1rem;
+            position: absolute;
+            line-height: 1rem;
+            text-align: center;
+            font-size: .4rem;
+            color: #fff;
+            bottom: .6rem;
+        }
+    }
+    .gift-pop {
+        width: 10rem;
+        height: 100%;
+        z-index: 999;
+        position: fixed;
+        top: 0;
+        .mask {
+            width: 100%;
+            height: 100%;
+            background: #000;
+            opacity: .75;
+        }
+        img {
+            width: 100%;
+            position: absolute;
+            top: 2.6777rem;
+        }
+        .close-dialog {
+            display: block;
+            position: absolute;
+            width: 2rem;
+            height: 2rem;
+            top: 2rem;
+            right: 0rem;
+            z-index: 888;
+        }
+        .down-app {
+            width: 10rem;
+            height: 1.2rem;
+            position: absolute;
+            top: 10.9rem;
+            z-index: 888;
+        }
+    }
+}

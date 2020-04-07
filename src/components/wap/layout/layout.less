@@ -1,0 +1,111 @@
+.wap-header {
+    position: fixed;
+    top: 0;
+    z-index: 100000;
+    width: 10rem;
+    height: 1.17333333rem;
+    background: #FDB71C;
+    display: flex;
+    justify-content: space-between;
+
+
+    .header-left {
+        height: 100%;
+        display: flex;
+
+        .header-logo {
+            display: flex;
+            align-items: center;
+            margin: 0 0 0 0.4rem;
+
+            img {
+                width: 1.76rem;
+                height: 0.64rem;
+            }
+        }
+
+        .download-app {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0 0 0 0.25rem;
+            // align-items: center;
+
+            img {
+                margin: 0.15rem 0 0 0;
+                width: 0.58666667rem;
+                height: 0.61333333rem;
+            }
+
+            .download-text {
+                font-weight: bold;
+                font-size: 0.213333rem;
+                transform: scale(0.8);
+                color: #FFF;
+            }
+
+        }
+    }
+
+    .header-right {
+        height: 100%;
+        display: flex;
+
+        .search {
+            display: flex;
+            align-items: center;
+            margin: 0 0.5rem 0 0;
+
+            img {
+                width: 0.533333rem;
+                height: 0.533333rem;
+            }
+        }
+
+        .header-login {
+            display: flex;
+            align-items: center;
+            margin: 0 0.4266667rem 0 0;
+
+            .header-container {
+                width: 0.83666667rem;
+                height: 0.83666667rem;
+                font-size: 0;
+
+                img {
+                    position: absolute;
+                    z-index: 1001;
+                    width: 0.83666667rem;
+                    height: 0.83666667rem;
+                    border-radius: 50%;
+                    border: 1px solid #FFF;
+                    vertical-align: baseline;
+                }
+
+                .login-handle {
+                    position: relative;
+                    left: 0.07rem;
+                    z-index: 1000;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin: -0.108rem 0 0 -0.1805rem;
+                    width: 1.066667rem;
+                    height: 4.193548rem;
+                    background: #FFF;
+                    border-radius: 1.066667rem;
+
+                    .user {
+                        margin-top: 1.68rem;
+                    }
+
+                    .back {
+                        margin-top: 3.2266667rem;
+                    }
+                }
+            }
+        }
+    }
+}

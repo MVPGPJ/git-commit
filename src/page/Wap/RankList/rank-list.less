@@ -1,0 +1,228 @@
+.rank-list {
+    width: 100%;
+    height: auto;
+    .choosen-box {
+        width: 100%;
+        height: 1.23rem;
+        padding: 0 10px;
+        border-bottom: 0.5px solid #E6E6E6;
+        span {
+            display: block;
+            width: 33.33%;
+            height: 100%;
+            text-align: center;
+            line-height: 1.2rem;
+            float: left;
+            font-size: .37333rem;
+            color: #777;
+        }
+        .activeBtn {
+            font-size: .42666rem;
+            color: #333;
+            font-weight: 600;
+            position: relative;
+            text-align: center;
+            &:before {
+                content: '';
+                width: 1.6rem;
+                height: .08rem;
+                position: absolute;
+                top: 1.15rem;
+                border-radius: 2px;
+                background: #FDB71C 100%;
+            }
+        }
+    }
+    .rank-lists {
+        width: 100%;
+        height: auto;
+        .rank-boxes {
+            width: 100%;
+            height: 2.47333rem;
+            margin-top: .48rem;
+            border-bottom: 0.5px solid #E6E6E6;
+        }
+        .rank-box {
+            width: 100%;
+            height: 2.33333rem;
+            margin-top: .48rem;
+            border-bottom: 0.5px solid #E6E6E6;
+            position: relative;
+            &:nth-child(1) {
+                background: url(../../../assets/wap/first.png) no-repeat .2rem .85rem;
+                background-size: .9rem .4rem;
+                .rank-rank {
+                    color: #fff;
+                }
+            }
+            &:nth-child(2) {
+                background: url(../../../assets/wap/second.png) no-repeat .2rem .85rem;
+                background-size: .9rem .4rem;
+                .rank-rank {
+                    color: #fff;
+                }
+            }
+            &:nth-child(3) {
+                background: url(../../../assets/wap/third.png) no-repeat .2rem .85rem;
+                background-size: .9rem .4rem;
+                .rank-rank {
+                    color: #fff;
+                }
+            }
+            .rank-rank {
+                float: left;
+                margin-left: .4rem;
+                margin-top: .70666rem;
+                color: #aaa;
+                font-weight: 500;
+            }
+            .font-size1 {
+                font-size: .52222rem !important;
+            }
+            .font-size2 {
+                font-size: .37333rem !important;
+            }
+            .font-size3 {
+                font-size: .29333rem !important;
+            }
+            .rank-img {
+                width: 1.8666rem;
+                height: 1.8666rem;
+                border-radius: 10px;
+                position: absolute;
+                left: 1.333rem;
+            }
+            .rank-info {
+                width: 6rem;
+                height: 1.8666rem;
+                position: absolute;
+                left: 3.4666rem;
+                p {
+                    display: flex;
+                    margin: 0;
+                    padding: 0;
+                    .game-name {
+                        display: block;
+                        max-width: 90%;
+                        height: auto;
+                        font-size: .4rem;
+                        color: #333;
+                        line-height: .4rem;
+                        font-weight: medium;
+                        overflow: hidden; // 超出的文本隐藏
+                        text-overflow: ellipsis; // 溢出用省略号显示
+                        white-space: nowrap;
+                        margin-top: .05rem;
+                    }
+                    .game-desc {
+                        display: block;
+                        width: 100%;
+                        height: auto;
+                        font-size: .34666rem;
+                        color: #777;
+                        line-height: .37666rem;
+                        font-weight: medium;
+                        overflow: hidden; // 超出的文本隐藏
+                        text-overflow: ellipsis; // 溢出用省略号显示
+                        white-space: nowrap;
+                        margin-top: .29333rem;
+                    }
+                }
+            }
+        }
+        .seek-more {
+            width: 100%;
+            height: 1.3333rem;
+            .nomore-data {
+                display: block;
+                width: 2.4rem;
+                height: .8rem;
+                text-align: center;
+                line-height: .8rem;
+                color: #aaaaaa;
+                font-size: .32rem;
+                border: 1px solid #cccccc;
+                border-radius: 6px;
+                margin-left: 3.8rem;
+                margin-top: .5333rem;
+            }
+        }
+        .seekMore {
+            width: 100%;
+            height: 1.53333333rem;
+            display: flex;
+            justify-content: center;
+    
+            .btn {
+                margin-top: 0.533333rem;
+                width: 2.4rem;
+                height: 0.8rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 0.32rem;
+                color: #AAA;
+            }
+    
+            .border::before {
+                border: 1px solid #CCC;
+                border-radius: 0.16rem;
+            }
+        }
+    }
+    .info-tags {
+        overflow: hidden;
+        width: 100%;
+        height: .8rem;
+        .tags {
+            font-size: .3rem;
+            margin-left: .2rem;
+            height: .541333rem;
+            text-align: center;
+            color: #fff;
+            transform: skew(-7deg);
+            text-align: center;
+            padding: .03rem .2rem;
+            float: left;
+            border-radius: .05rem;
+            margin-top: .25rem;
+            &:nth-child(1) {
+                margin-left: .05rem;
+            } 
+            .tag-text {
+                display: inline-block;
+                transform:skew(7deg);   
+                -webkit-transform: skew(7deg);   
+                -moz-transform: skew(7deg);   
+                -o-transform:skew(7deg);   
+                -ms-transform:skew(7deg); 
+                text-align: center;
+                margin-top: .03rem;
+            }
+        }
+        .tag0 {
+            color: #fa5d1e;
+            background: #FFCBB9;
+        }
+        .tag1 {
+            color: #FB8445;
+            background: #FDD9C5;
+        }
+        .tag2 {
+            color: #F98D27;
+            background: #FFDEC7;
+        }
+        .tag3 {
+            color: #ff9d15;
+            background: #FFE6D3;;
+        }
+        .tag4 {
+            color: #ffa800;
+            background: #FFEACD;
+        }
+        .tag5 {
+            color: #ffa800;
+            background: #FFF2C6;
+        }
+    }
+}

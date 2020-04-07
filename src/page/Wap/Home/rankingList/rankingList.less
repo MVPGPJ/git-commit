@@ -1,0 +1,422 @@
+.rankingList {
+    width: 10rem;
+    margin: 0.6rem 0 0 0;
+
+
+    .title {
+        width: 100%;
+        height: .9rem;
+        padding: 0 .4rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 0;
+
+        .text {
+            .active {
+                font-weight: bold;
+                font-size: 0.4266667rem !important;
+            }
+
+            .text-ios {
+                display: inline-block;
+                font-size: 0.32rem;
+                color: #333333;
+                text-align: center;
+            }
+
+            .text-android {
+                margin: 0 0 0 0.3rem;
+                display: inline-block;
+                font-size: 0.32rem;
+                color: #333333;
+                text-align: center;
+            }
+
+            .text-h5 {
+                margin: 0 0 0 0.3rem;
+                display: inline-block;
+                font-size: 0.32rem;
+                color: #333333;
+                text-align: center;
+            }
+        }
+
+        img {
+            width: 0.533333rem;
+            height: 0.533333rem;
+        }
+    }
+
+    ::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+        background-color: transparent;
+    }
+
+    .main {
+        display: flex;
+        width: 100%;
+        height: 8.32rem;
+        overflow: hidden;
+        overflow-x: scroll;
+
+        .li-first {
+            width: 9.2rem;
+            height: 8.32rem;
+
+            .border::before {
+                border-bottom: 1px solid #E6E6E6;
+            }
+
+            .first-container {
+                height: 2.72rem;
+                padding: 0 0.293333rem 0 0.4rem;
+                display: flex;
+                align-items: center;
+
+                .img {
+                    position: relative;
+                    font-size: 0;
+
+                    img {
+                        position: relative;
+                        width: 1.866667rem;
+                        height: 1.866667rem;
+                        border-radius: 0.2666667rem;
+                    }
+
+                    .rank {
+                        position: absolute;
+                        top: 0;
+                        left: 0.24rem;
+                        width: 0.4266667rem;
+                        height: 0.6rem;
+                        background: url('../../../../assets/wap/images/home_ic_ranking@3x.png') no-repeat;
+                        background-size: 100%;
+                        color: #333333;
+                        font-size: 0.32rem;
+                        text-align: center;
+                        font-weight: bold;
+                    }
+                }
+
+                .msg {
+                    width: 100%;
+                    // width: 6.3733333rem;
+                    margin: 0 0 0 0.266667rem;
+
+                    .name {
+                        margin-top: 0.05rem;
+                        color: #333333;
+                        font-size: 0.4rem;
+                        font-weight: bold;
+                        max-width: 6rem;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+
+                    .info {
+                        margin-top: 0.12rem;
+                        font-size: 0.3466667rem;
+                        width: 6.3733333rem;
+                        color: #777777;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+
+                    .info-tags {
+                        height: 0.8rem;
+                        width: 6.3733333rem;
+                        overflow: hidden;
+
+                        .tags {
+                            font-size: .3rem;
+                            line-height: .45rem;
+                            height: .541333rem;
+                            margin-left: .187rem;
+                            color: #fff;
+                            -webkit-transform: skew(-9deg);
+                            transform: skew(-9deg);
+                            text-align: center;
+                            padding: .03rem .2rem 0 .2rem;
+                            float: left;
+                            border-radius: .05rem;
+                            margin-top: .17rem;
+                            white-space: nowrap;
+
+                            .tag-text {
+                                display: inline-block;
+                                font-size: .293333rem;
+                                transform: skew(7deg);
+                                text-align: center;
+                                margin-top: 0.035rem;
+                            }
+                        }
+
+                        .tag0 {
+                            color: #fa5d1e;
+                            background: #ffcbb9;
+                            margin-left: 2px !important;
+                        }
+
+                        .tag1 {
+                            color: #fe7720;
+                            background: #ffe0c3;
+                        }
+
+                        .tag2 {
+                            color: #ff9d15;
+                            background: #ffeacd;
+                        }
+
+                        .tag3 {
+                            color: #ffa800;
+                            background: #fff2c6;
+                        }
+
+                        .tag4 {
+                            color: #f98d27;
+                            background: #ffdec7;
+                        }
+                    }
+                }
+            }
+        }
+
+        .li-second {
+            width: 9.2rem;
+            height: 8.32rem;
+            padding: 0 0 0 0rem;
+
+            .border::before {
+                border-bottom: 1px solid #E6E6E6;
+            }
+
+            .first-container {
+                height: 2.72rem;
+                display: flex;
+                align-items: center;
+                padding: 0 0.293333rem 0 0.4rem;
+
+
+                .img {
+                    position: relative;
+                    font-size: 0;
+
+                    img {
+                        position: relative;
+                        width: 1.866667rem;
+                        height: 1.866667rem;
+                        border-radius: 0.2666667rem;
+                    }
+
+                    .rank {
+                        position: absolute;
+                        top: 0;
+                        left: 0.24rem;
+                        width: 0.4266667rem;
+                        height: 0.6rem;
+                        background: url('../../../../assets/wap/images/home_ic_ranking@3x.png') no-repeat;
+                        background-size: 100%;
+                        color: #333333;
+                        font-size: 0.32rem;
+                        text-align: center;
+                        font-weight: bold;
+                    }
+                }
+
+                .msg {
+                    width: 100%;
+                    margin: 0 0 0 0.266667rem;
+
+                    .name {
+                        margin-top: 0.05rem;
+                        color: #333333;
+                        font-size: 0.4rem;
+                        font-weight: bold;
+                        max-width: 6rem;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+
+                    .info {
+                        margin-top: 0.12rem;
+                        font-size: 0.3466667rem;
+                        width: 6.3733333rem;
+                        color: #777777;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+
+                    .info-tags {
+                        height: 0.8rem;
+                        width: 6.3733333rem;
+                        overflow: hidden;
+
+                        .tags {
+                            font-size: .3rem;
+                            line-height: .45rem;
+                            height: .541333rem;
+                            margin-left: .2rem;
+                            color: #fff;
+                            -webkit-transform: skew(-7deg);
+                            transform: skew(-7deg);
+                            text-align: center;
+                            padding: .03rem .2rem 0 .2rem;
+                            float: left;
+                            border-radius: .05rem;
+                            margin-top: .17rem;
+                            white-space: nowrap;
+
+                            .tag-text {
+                                display: inline-block;
+                                font-size: .293333rem;
+                                transform: skew(7deg);
+                                text-align: center;
+                                margin-top: 0.035rem;
+                            }
+                        }
+
+                        .tag0 {
+                            color: #fa5d1e;
+                            background: #ffcbb9;
+                            margin-left: .08rem !important;
+                        }
+
+                        .tag1 {
+                            color: #fb8445;
+                            background: #fdd9c5;
+                        }
+
+                        .tag2 {
+                            color: #f98d27;
+                            background: #ffdec7;
+                        }
+                    }
+                }
+            }
+        }
+
+        .li-third {
+            width: 10rem;
+            height: 8.32rem;
+            padding: 0 0.8rem 0 0;
+            // margin: 0 0.8rem 0 0;
+
+            .border::before {
+                border-bottom: 1px solid #E6E6E6;
+            }
+
+            .first-container {
+                height: 2.72rem;
+                display: flex;
+                align-items: center;
+                padding: 0 0.293333rem 0 0.4rem;
+
+                .img {
+                    position: relative;
+                    font-size: 0;
+
+                    img {
+                        position: relative;
+                        width: 1.866667rem;
+                        height: 1.7813333rem;
+                        border-radius: 0.2666667rem;
+                    }
+
+                    .rank {
+                        position: absolute;
+                        top: 0;
+                        left: 0.24rem;
+                        width: 0.4266667rem;
+                        height: 0.6rem;
+                        background: url('../../../../assets/wap/images/home_ic_ranking@3x.png') no-repeat;
+                        background-size: 100%;
+                        color: #333333;
+                        font-size: 0.32rem;
+                        text-align: center;
+                        font-weight: bold;
+                    }
+                }
+
+                .msg {
+                    width: 100%;
+                    // width: 6.3733333rem;
+                    margin: 0 0 0 0.266667rem;
+
+                    .name {
+                        margin-top: 0.05rem;
+                        color: #333333;
+                        font-size: 0.4rem;
+                        font-weight: bold;
+                        max-width: 6rem;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+
+                    .info {
+                        margin-top: 0.12rem;
+                        font-size: 0.3466667rem;
+                        width: 6.3733333rem;
+                        color: #777777;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+
+                    .info-tags {
+                        height: 0.8rem;
+                        width: 6.3733333rem;
+                        overflow: hidden;
+
+                        .tags {
+                            font-size: .3rem;
+                            line-height: .45rem;
+                            height: .541333rem;
+                            margin-left: .2rem;
+                            color: #fff;
+                            -webkit-transform: skew(-7deg);
+                            transform: skew(-7deg);
+                            text-align: center;
+                            padding: .03rem .2rem 0 .2rem;
+                            float: left;
+                            border-radius: .05rem;
+                            margin-top: .17rem;
+                            white-space: nowrap;
+
+                            .tag-text {
+                                display: inline-block;
+                                font-size: .293333rem;
+                                transform: skew(7deg);
+                                text-align: center;
+                                margin-top: 0.035rem;
+                            }
+                        }
+
+                        .tag0 {
+                            color: #fa5d1e;
+                            background: #ffcbb9;
+                            margin-left: .08rem !important;
+                        }
+
+                        .tag1 {
+                            color: #fb8445;
+                            background: #fdd9c5;
+                        }
+
+                        .tag2 {
+                            color: #f98d27;
+                            background: #ffdec7;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

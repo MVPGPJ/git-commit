@@ -1,0 +1,207 @@
+.search {
+    width: 100%;
+    .search-box {
+        width: 100%;
+        height: 1.3rem;
+        position: relative;
+        top: .3333rem;
+        .search-border {
+            width: 8rem;
+            height: .88rem;
+            border-radius: 5px;
+            background: #F6F6F6 100%;
+            margin-left: .4rem;
+            img {
+                width: .37333rem;
+                height: .37333rem;
+                position: absolute;
+                top: .25rem;
+                left: .72rem;
+            }
+            .clear-icon {
+                width: .58666rem;
+                height: .58666rem;
+                background: url(../../../assets/wap/clear.png) no-repeat;
+                background-size: contain;
+                position: absolute;
+                top: 0.145rem;
+                right: 1.85rem;
+            }
+            input {
+                caret-color: #FDB71C;
+                border: none;
+                border-radius: 5px;
+                width: 6.3rem;
+                height: .5rem;
+                background: #F6F6F6 100%;
+                position: absolute;
+                top: .2rem;
+                left: 1.2rem;
+                font-size: .37333rem;
+                padding: 0 .2rem;
+            }
+        }
+        .search-text {
+            display: inline-block;
+            width: auto;
+            height: .88rem;
+            line-height: .88rem;
+            text-align: left;
+            font-size: .4rem;
+            margin-left: .4rem;
+            position: absolute;
+            right: .4rem;
+        }
+    }
+    .hot-recommend {
+        width: 9.2rem;
+        margin: 0 auto;
+        height: auto;
+        .hot-text {
+            font-size: .42666rem;
+            font-weight: medium;
+        }
+        .hot-box {
+            width: 100%;
+            height: auto;
+            margin-top: -.5rem;
+            a {
+                display: inline-block;
+                width: auto;
+                padding: .1rem .3rem;
+                font-size: .32rem;
+                border-radius: 15px;
+                background: #F6F6F6 100%;
+                margin-left: .28rem;
+                margin-top: -.5rem;
+                &:nth-child(1):before, &:nth-child(2):before {
+                    content: '';
+                    width: .24rem;
+                    height: .37rem;
+                    background: url(../../../assets/wap/hotfire.png) no-repeat;
+                    background-size: contain;
+                    padding-right: .25rem;
+                    float: left;
+                    margin-top: .04rem;
+                }
+                &:nth-child(1), &:nth-child(2) {
+                    color: #FE5200;
+                }
+                &:nth-child(1) {
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+    .search-lists {
+        width: 100%;
+        height: auto;
+        .search-box {
+            width: 100%;
+            height: 2.33333rem;
+            border-bottom: 0.5px solid #E6E6E6;
+            margin-top: .45rem;
+            &:nth-child(1) {
+                margin-top: .15rem;
+            }
+            .search-img {
+                width: 1.8666rem;
+                height: 1.8666rem;
+                border-radius: 10px;
+                float: left;
+                margin-left: .4rem;
+            }
+            .search-info {
+                width: 7.1rem;
+                height: 1.8666rem;
+                float: left;
+                margin-left: .2666rem;
+                p {
+                    display: flex;
+                    margin: 0;
+                    padding: 0;
+                    .game-name {
+                        display: block;
+                        max-width: 100%;
+                        height: auto;
+                        font-size: .4rem;
+                        color: #333;
+                        line-height: .4rem;
+                        font-weight: medium;
+                        overflow: hidden; // 超出的文本隐藏
+                        text-overflow: ellipsis; // 溢出用省略号显示
+                        white-space: nowrap;
+                        margin-top: .05rem;
+                    }
+                    .game-desc {
+                        display: block;
+                        width: 100%;
+                        height: auto;
+                        font-size: .34666rem;
+                        color: #777;
+                        line-height: .34666rem;
+                        font-weight: medium;
+                        overflow: hidden; // 超出的文本隐藏
+                        text-overflow: ellipsis; // 溢出用省略号显示
+                        white-space: nowrap;
+                        margin-top: .29333rem;
+                    }
+                }
+            }
+        }
+    }
+    .info-tags {
+        overflow: hidden;
+        width: 100%;
+        height: 1rem;
+        .tags {
+            font-size: .3rem;
+            margin-left: .2rem;
+            height: .541333rem;
+            text-align: center;
+            color: #fff;
+            transform: skew(-7deg);
+            padding: .03rem .2rem;
+            float: left;
+            border-radius: .05rem;
+            margin-top: .25rem;
+            &:nth-child(1) {
+                margin-left: .02rem;
+            }
+            .tag-text {
+                display: inline-block;
+                transform:skew(7deg);   
+                -webkit-transform: skew(7deg);   
+                -moz-transform: skew(7deg);   
+                -o-transform:skew(7deg);   
+                -ms-transform:skew(7deg); 
+                text-align: center;
+                margin-top: .03rem;
+            }
+        }
+        .tag0 {
+            color: #fa5d1e;
+            background: #FFCBB9;
+        }
+        .tag1 {
+            color: #FB8445;
+            background: #FDD9C5;
+        }
+        .tag2 {
+            color: #F98D27;
+            background: #FFDEC7;
+        }
+        .tag3 {
+            color: #ff9d15;
+            background: #FFE6D3;;
+        }
+        .tag4 {
+            color: #ffa800;
+            background: #FFEACD;
+        }
+        .tag5 {
+            color: #ffa800;
+            background: #FFF2C6;
+        }
+    }
+}

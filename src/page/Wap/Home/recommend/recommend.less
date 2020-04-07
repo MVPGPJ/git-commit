@@ -1,0 +1,164 @@
+.recommend {
+    width: 10rem;
+    margin: 0.8rem 0 0 0;
+
+    .title {
+        font-size: 0.42666667rem;
+        color: #333333;
+        line-height: 0.42666667rem;
+        padding: 0 0.4rem;
+        font-weight: bold;
+    }
+
+    .border::before {
+        border-bottom: 1px solid #E6E6E6;
+    }
+
+    .main {
+        width: 10rem;
+        margin-top: 0.5333333rem;
+        padding: 0 0.4rem;
+
+        .contain {
+            width: 9.2rem;
+            height: 5.6rem;
+
+            .game-bg {
+                width: 9.2rem;
+                height: 3.4666667rem;
+                position: relative;
+                font-size: 0;
+
+                .img {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 0.21333333rem;
+                }
+
+                .img-bg {
+                    background: #eee;
+                }
+
+
+                .tags {
+                    position: absolute;
+                    top: 2.666666rem;
+                    max-width: 9.2rem;
+                    height: 0.53333333rem;
+                    // padding: 0 0.2133333rem 0 0.2133333rem;
+                    display: flex;
+                    align-items: center;
+                    overflow: hidden;
+                    flex-wrap: wrap;
+
+                    .item-tag:first-of-type {
+                        padding: 0 0 0 0.2133333rem;
+
+                        span {
+                            display: none;
+                        }
+                    }
+
+
+                    .item-tag:last-of-type {
+                        padding: 0 0.2133333rem 0 0;
+                    }
+
+                    .item-tag {
+                        height: 100%;
+                        color: #FFFFFF;
+                        background: #FF8257;
+                        display: flex;
+                        align-items: center;
+
+                        .text {
+                            height: 100%;
+                            padding: 0 0.15rem 0 0;
+                            font-size: 0.32rem;
+                            line-height: 0.6rem;
+                        }
+
+                        span {
+                            display: inline-block;
+                            margin: 0.07rem 0.15rem 0 0;
+                            font-size: 0.32rem;
+                            color: #fff;
+                            text-align: center;
+                        }
+                    }
+
+                }
+            }
+
+            .game {
+                width: 100%;
+                height: 1.3333333rem;
+                margin-top: 0.4rem;
+                display: flex;
+
+                .game-img {
+                    width: 1.3333333rem;
+                    height: 1.3333333rem;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 0.16rem;
+                    }
+                }
+
+                .game-msg {
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin: 0.05rem 0 0 0.2666667rem;
+                    width: 7.33333333rem;
+
+                    .game-name {
+                        max-width: 6.4rem;
+                        margin: 0.2rem 0 0 0;
+                        font-size: 0.4rem;
+                        font-weight: bold;
+                        color: #333333;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+
+                    .game-info {
+                        margin: 0.1rem 0 0 0;
+                        font-size: 0.32rem;
+                        width: 100%;
+                        color: #777777;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+                }
+            }
+        }
+    }
+
+    .more {
+        width: 100%;
+        height: 2.13333333rem;
+        display: flex;
+        justify-content: center;
+
+        .btn {
+            margin-top: 0.533333rem;
+            width: 2.4rem;
+            height: 0.8rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 0.32rem;
+            color: #AAA;
+        }
+
+        .border::before {
+            border: 1px solid #CCC;
+            border-radius: 0.16rem;
+        }
+    }
+
+}
